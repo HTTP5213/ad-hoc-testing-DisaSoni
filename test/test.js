@@ -4,7 +4,7 @@ chai.use(chaiAsPromised);
 let expect = chai.expect;
 
 import {ax} from './index.axe.js';
-import {lght} from './index.lighthouse.js';
+import * as lght from './index.lighthouse.js';
 import {val} from './index.validate.js';
 import {links} from './index.links.js';
 import {emailRequired} from './index.emailRequired.js';
