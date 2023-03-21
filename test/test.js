@@ -1,10 +1,10 @@
-import * as chai from 'chai';
+import {chai} from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 chai.use(chaiAsPromised);
 let expect = chai.expect;
 
 import {ax} from './index.axe.js';
-import * as lght from './index.lighthouse.js';
+import {lght} from './index.lighthouse.js';
 import {val} from './index.validate.js';
 import {links} from './index.links.js';
 import {emailRequired} from './index.emailRequired.js';
